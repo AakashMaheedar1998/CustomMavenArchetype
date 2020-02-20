@@ -1,12 +1,14 @@
 import os
 cmd = 'ls'
 os.system(cmd)
+cmd1 = 'git init'
+os.system(cmd1)
 
 cmd2 = 'git status'
 os.system(cmd2)
 cmd3 = 'git add .'
 os.system(cmd3)
-cmd4 = "git commit -m 'First commit'"
+cmd4 = "git commit -m 'First commit' "
 
 os.system(cmd4)
 cmd5 = 'git status'
