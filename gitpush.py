@@ -1,6 +1,11 @@
 import os
+cmd0 ='cd /Users/aaakasha/Workstore/Feb/sampleApp'
+os.system(cmd0)
+cmd01 ='pwd'
+os.system(cmd01)
 cmd = 'ls'
 os.system(cmd)
+os.system(cmd01)
 cmd1 = 'git init'
 os.system(cmd1)
 
