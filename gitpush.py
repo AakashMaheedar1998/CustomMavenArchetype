@@ -1,20 +1,19 @@
 import os
-
-
-
+cmd = 'ls'
+os.system(cmd)
 cmd1 = 'git init'
 os.system(cmd1)
-cmd2_2 ='git status'
-os.system(cmd2_2)
-cmd2 = 'git add  .'
+cmd2 = 'git status'
 os.system(cmd2)
-
-cmd3 = 'git commit -m "My first File"'
+cmd3 = 'git add .'
 os.system(cmd3)
-cmd4 = 'git remote add origin https://github.com/AakashMaheedar/Test'
+cmd4 = 'git commit -m "First commit"'
 os.system(cmd4)
-os.system(cmd2_2)
-cmd5 = 'git pull origin master'
+cmd5 = 'git status'
 os.system(cmd5)
+cmd6 = 'git remote add origin https://github.com/AakashMaheedar/Test'
+os.system(cmd6)
 cmd6 = 'git push -u origin master'
+os.system(cmd6)
+cmd6 = 'git status'
 os.system(cmd6)
