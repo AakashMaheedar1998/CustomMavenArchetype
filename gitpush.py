@@ -18,7 +18,7 @@ cmd4 = 'git commit -m "First commit" '
 os.system(cmd4)
 cmd5 = 'git status'
 os.system(cmd5)
-cmd6 = 'git remote add origin https://github.com/AakashMaheedar/Test.git'
+cmd6 = 'git remote add origin https://github.com/AakashMaheedar/script.git'
 os.system(cmd6)
 cmd6 = 'git push -u origin master'
 os.system(cmd6)
