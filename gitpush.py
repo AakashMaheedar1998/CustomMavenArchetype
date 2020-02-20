@@ -1,8 +1,7 @@
 import os
 cmd = 'ls'
 os.system(cmd)
-cmd1 = 'git init'
-os.system(cmd1)
+
 cmd2 = 'git status'
 os.system(cmd2)
 cmd3 = 'git add .'
