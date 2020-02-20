@@ -9,8 +9,10 @@ os.system(cmd01)
 #cmd1 = 'git init'
 #os.system(cmd1)
 
+cmd12 = 'git branch'
 cmd22 = 'git pull'
 cmd2 = 'git status'
+os.system(cmd12)
 os.system(cmd22)
 cmd3 = 'git add .'
 os.system(cmd3)
